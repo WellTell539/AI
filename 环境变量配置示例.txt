@@ -1,0 +1,58 @@
+# 智能电子生命体 - 环境变量配置示例
+# 请将此文件重命名为 .env 并填入您的实际API密钥
+
+# ===== AI模型配置 =====
+# OpenAI API密钥
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Claude API密钥  
+CLAUDE_API_KEY=your_claude_api_key_here
+
+# ===== 搜索服务配置 =====
+# 搜索API密钥（用于SerpAPI或Google Custom Search）
+SEARCH_API_KEY=your_search_api_key_here
+
+# Google Custom Search Engine ID
+GOOGLE_CX_ID=your_google_custom_search_engine_id_here
+
+# ===== 语音合成配置 =====
+# Azure Speech Service密钥
+AZURE_SPEECH_KEY=your_azure_speech_key_here
+AZURE_SPEECH_REGION=eastasia
+
+# ===== 云端同步配置 =====
+# Dropbox访问令牌
+DROPBOX_ACCESS_TOKEN=your_dropbox_access_token_here
+
+# Google Drive凭据文件路径
+GOOGLE_DRIVE_CREDENTIALS=path/to/your/google_drive_credentials.json
+
+# AWS S3配置
+AWS_ACCESS_KEY=your_aws_access_key_here
+AWS_SECRET_KEY=your_aws_secret_key_here
+AWS_BUCKET=your_s3_bucket_name_here
+
+# Azure Blob Storage配置
+AZURE_CONNECTION_STRING=your_azure_connection_string_here
+AZURE_CONTAINER=your_azure_container_name_here
+
+# ===== 安全配置 =====
+# 数据加密密钥（32位随机字符串）
+ENCRYPTION_KEY=your_32_character_encryption_key_here
+
+# ===== 配置说明 =====
+# 1. 将此文件重命名为 .env 并放在项目根目录
+# 2. 填入您的实际API密钥和配置信息
+# 3. 不要将此文件提交到版本控制系统
+# 4. 确保API密钥的安全性，不要泄露给他人
+
+# ===== 获取API密钥的方法 =====
+# OpenAI: https://platform.openai.com/api-keys
+# Claude: https://console.anthropic.com/
+# SerpAPI: https://serpapi.com/
+# Google Custom Search: https://developers.google.com/custom-search
+# Azure Speech: https://azure.microsoft.com/services/cognitive-services/speech-services/
+# Dropbox: https://www.dropbox.com/developers
+# Google Drive: https://developers.google.com/drive/api
+# AWS S3: https://aws.amazon.com/s3/
+# Azure Blob Storage: https://azure.microsoft.com/services/storage/blobs/

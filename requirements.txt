@@ -1,0 +1,75 @@
+# AI 和机器学习
+openai>=1.0.0
+anthropic>=0.7.0
+
+# GUI 框架
+tkinter-tooltip>=2.0.0
+pillow>=10.0.0
+customtkinter>=5.2.0
+
+# 计算机视觉和图像处理
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyautogui>=0.9.54
+mss>=9.0.1
+
+# 增强视觉能力 - 物体识别和场景理解
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+ultralytics>=8.0.0  # YOLO 物体检测
+mediapipe>=0.10.0   # 人脸和手势识别
+scikit-image>=0.21.0  # 图像处理
+scipy>=1.11.0
+
+# 语音处理
+speechrecognition>=3.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.11
+
+# 语音合成 - TTS
+gtts>=2.3.2  # Google Text-to-Speech
+pygame>=2.5.0  # 音频播放
+edge-tts>=6.1.0  # Microsoft Edge TTS
+azure-cognitiveservices-speech>=1.31.0  # Azure Speech
+
+# 3D虚拟形象
+pygame>=2.5.0  # 3D渲染基础
+pyopengl>=3.1.6  # OpenGL 3D图形
+pywavefront>=1.3.3  # 3D模型加载
+numpy-stl>=3.0.0  # STL文件处理
+matplotlib>=3.7.0  # 3D可视化
+
+# 移动端支持
+kivy>=2.2.0  # 跨平台移动应用框架
+kivymd>=1.1.1  # Material Design组件
+buildozer>=1.5.0  # Android打包工具
+
+# 云端同步
+dropbox>=11.36.0  # Dropbox API
+google-api-python-client>=2.100.0  # Google Drive API
+boto3>=1.28.0  # AWS S3
+azure-storage-blob>=12.17.0  # Azure Blob Storage
+pydrive>=1.3.1  # Google Drive简化接口
+
+# 网络和爬虫
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+
+# 数据处理和存储
+sqlalchemy>=2.0.0
+cryptography>=41.0.0
+python-dateutil>=2.8.2
+
+# 系统监控
+psutil>=5.9.0
+watchdog>=3.0.0
+
+# 工具库
+schedule>=1.2.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# 打包工具
+pyinstaller>=6.0.0
