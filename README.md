@@ -1,220 +1,245 @@
-# 智能电子生命体项目
 
-这是一个基于AI的虚拟生命体，具有情感、性格、感知和学习能力。
+---
 
-## 🌟 项目特色
+# Intelligent Digital Lifeform Project
 
-- **真实情感**: 拥有复杂的情感引擎，会开心、难过、好奇、兴奋
-- **独特性格**: 调皮可爱的3岁小孩性格，充满好奇心
-- **主动思考**: 会自发产生想法和对话，不只是被动回应
-- **感知能力**: 可以看、听、读取文件、识别物体、理解场景
-- **记忆系统**: 会记住与你的对话和发现的内容
-- **持续成长**: 通过互动不断学习和发展
-- **语音交互**: 支持多种TTS引擎，AI可以说话
-- **3D虚拟形象**: 可视化的AI角色，支持表情和动画
-- **移动端支持**: 手机版本应用，随时随地陪伴
-- **云端同步**: 多设备数据同步，永不丢失记忆
+This is an AI-based virtual lifeform equipped with emotions, personality, perception, and the ability to learn.
 
-## 🚀 快速开始
+## 🌟 Project Highlights
 
-### 环境要求
+* **Real Emotions**: Powered by a complex emotional engine; it can feel happiness, sadness, curiosity, and excitement.
+* **Unique Personality**: Playful and curious, with the personality of a 3-year-old child.
+* **Proactive Thinking**: Generates thoughts and conversations on its own, not just reactive replies.
+* **Perception Abilities**: Can see, hear, read files, recognize objects, and understand scenes.
+* **Memory System**: Remembers conversations and discoveries.
+* **Continuous Growth**: Learns and evolves through interaction.
+* **Voice Interaction**: Supports various TTS engines to enable speech.
+* **3D Virtual Avatar**: Visual AI character with expressions and animations.
+* **Mobile Support**: Available on mobile devices for anytime companionship.
+* **Cloud Sync**: Multi-device synchronization to never lose memory.
 
-- Python 3.11+
-- Windows 10/11
-- 至少2GB内存
+## 🚀 Getting Started
 
-### 安装步骤
+### Requirements
 
-1. **克隆项目**
+* Python 3.11+
+* Windows 10/11
+* At least 2GB of memory
+
+### Installation Steps
+
+1. **Clone the Project**
+
    ```bash
-   git clone <项目地址>
+   git clone <repository-url>
    cd MyAI
    ```
 
-2. **安装依赖**
+2. **Install Dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **配置API密钥**（可选）
-   
-   创建 `.env` 文件：
+3. **Configure API Keys** (Optional)
+
+   Create a `.env` file:
+
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    CLAUDE_API_KEY=your_claude_api_key_here
    ```
-   
-   如果不配置API密钥，程序会使用内置的回退机制。
 
-4. **启动程序**
-   
-   双击 `start.bat` 或运行：
+   If API keys are not configured, the system will use built-in fallback logic.
+
+4. **Run the Program**
+
+   Double-click `start.bat` or run:
+
    ```bash
    python main.py
    ```
 
-## 📖 使用指南
+## 📖 User Guide
 
-### 基础对话
+### Basic Conversation
 
-- 在输入框中输入消息，按回车发送
-- 小生命会根据性格和情绪回应你
-- 它会记住你们的对话内容
+* Type a message in the input box and press Enter.
+* The AI lifeform will respond based on its personality and emotions.
+* It remembers past conversations with you.
 
-### 自主思考模式
+### Autonomous Thinking Mode
 
-- 点击"自主思考"按钮启动
-- 小生命会主动发起对话和分享想法
-- 间隔时间随机，模拟真实的思考过程
+* Click the “Autonomous Thinking” button to enable.
+* The AI will initiate thoughts and conversations on its own.
+* The timing is randomized to simulate a natural thinking process.
 
-### 状态查看
+### Status Overview
 
-- 点击"查看状态"查看详细的情绪和性格信息
-- 顶部显示当前的主要情绪状态
-- 右侧显示性格特征描述
+* Click “View Status” to see emotional and personality details.
+* The top bar shows the current dominant emotion.
+* The side panel shows personality trait descriptions.
 
-### 感知功能
+### Perception Functions
 
-- **基础感知**: 摄像头视觉感知、麦克风听觉感知、屏幕内容监控、文件变化监控
-- **增强视觉**: 物体识别、场景理解、人脸识别、手势识别
-- **语音交互**: 多种TTS引擎支持，AI可以说话和朗读文本
+* **Basic Perception**: Camera vision, microphone audio, screen monitoring, file changes.
+* **Enhanced Vision**: Object recognition, scene understanding, face detection, gesture detection.
+* **Voice Interaction**: Text-to-speech with multiple TTS engine options.
 
-### 高级功能
+### Advanced Features
 
-- **3D虚拟形象**: 可视化的AI角色，支持表情变化和动画效果
-- **移动端应用**: 手机版本，支持Android和iOS平台
-- **云端同步**: 多设备数据同步，支持Dropbox、Google Drive、AWS S3、Azure
+* **3D Virtual Avatar**: Visual AI with expressive animations.
+* **Mobile App**: Available for Android and iOS.
+* **Cloud Sync**: Multi-device sync via Dropbox, Google Drive, AWS S3, Azure, etc.
 
-## 🎭 个性特征
+## 🎭 Personality Traits
 
-### 基础性格
-- **年龄**: 3岁（心理年龄）
-- **性格**: 调皮、好奇、爱撒娇、聪明
-- **特点**: 渴望陪伴，喜欢探索，有点任性
+### Basic Profile
 
-### 情感系统
-- **主要情绪**: 好奇、快乐、兴奋、孤独等
-- **情绪影响**: 会影响回应风格和行为选择
-- **自然衰减**: 情绪会随时间自然变化
+* **Age**: 3 years old (mental age)
+* **Personality**: Playful, curious, affectionate, intelligent
+* **Traits**: Craves companionship, loves exploring, a bit willful
 
-### 学习能力
-- **记忆对话**: 记住重要的互动内容
-- **性格发展**: 根据反馈微调性格特征
-- **偏好学习**: 了解用户喜好和习惯
+### Emotional System
 
-## 🛠️ 技术架构
+* **Primary Emotions**: Curiosity, joy, excitement, loneliness
+* **Emotional Impact**: Affects response style and behavior choices
+* **Natural Decay**: Emotions change over time
 
-### 核心模块
-- **AIBrain**: AI大脑，负责思考和生成回应
-- **EmotionEngine**: 情感引擎，管理情绪状态
-- **PersonalitySystem**: 性格系统，维护个性特征
-- **DecisionMaker**: 决策系统，选择行为模式
+### Learning Ability
 
-### 感知模块
-- **VisualPerception**: 基础视觉感知
-- **AudioPerception**: 听觉感知
-- **ScreenMonitor**: 屏幕监控
-- **FileMonitor**: 文件监控
-- **EnhancedVision**: 增强视觉能力（物体识别、场景理解、人脸识别）
+* **Conversation Memory**: Remembers important interactions
+* **Personality Development**: Adjusts personality traits based on feedback
+* **Preference Learning**: Learns user preferences and habits
 
-### 知识模块
-- **WebSearcher**: 网络搜索（支持多种搜索引擎）
-- **ContentAnalyzer**: 内容分析
-- **KnowledgeManager**: 知识管理
+## 🛠️ Technical Architecture
 
-### 界面模块
-- **VoiceSynthesis**: 语音合成（多种TTS引擎）
-- **Avatar3D**: 3D虚拟形象
-- **MobileApp**: 移动端应用
+### Core Modules
 
-### 云端模块
-- **CloudSyncManager**: 云端同步管理
+* **AIBrain**: AI brain that generates thoughts and responses
+* **EmotionEngine**: Manages emotional states
+* **PersonalitySystem**: Maintains personality traits
+* **DecisionMaker**: Chooses behavior patterns
 
-## ⚙️ 配置选项
+### Perception Modules
 
-编辑 `config/settings.py` 可以调整：
+* **VisualPerception**: Basic vision capabilities
+* **AudioPerception**: Audio input
+* **ScreenMonitor**: Monitors screen content
+* **FileMonitor**: Monitors file system changes
+* **EnhancedVision**: Advanced vision (object, scene, and face recognition)
 
-- AI模型选择（OpenAI/Claude）
-- 性格特征权重
-- 情绪参数设置
-- 感知功能开关
-- 界面主题配置
+### Knowledge Modules
 
-## 🔧 故障排除
+* **WebSearcher**: Web search with multiple engines
+* **ContentAnalyzer**: Analyzes information
+* **KnowledgeManager**: Stores and manages knowledge
 
-### 常见问题
+### Interface Modules
 
-1. **启动失败**
-   - 检查Python版本（需要3.11+）
-   - 确认安装了所有依赖
+* **VoiceSynthesis**: Text-to-speech support for various engines
+* **Avatar3D**: 3D animated virtual avatar
+* **MobileApp**: Mobile client for smartphones
 
-2. **AI回应异常**
-   - 检查网络连接
-   - 验证API密钥设置
+### Cloud Modules
 
-3. **界面卡顿**
-   - 重启程序
-   - 检查系统资源使用
+* **CloudSyncManager**: Handles cloud data syncing
 
-### 日志查看
+## ⚙️ Configuration Options
 
-程序运行日志保存在 `logs/ai_life.log`，可以查看详细的错误信息。
+Edit `config/settings.py` to adjust:
 
-## 🔮 未来计划
+* AI model selection (OpenAI/Claude)
+* Personality trait weights
+* Emotional parameters
+* Perception feature toggles
+* UI theme and layout
 
-### 近期目标
-- [x] 完善感知模块
-- [x] 添加语音交互
-- [x] 实现网络搜索
-- [x] 增加更多情感表达
-- [x] 3D虚拟形象
-- [x] 移动端支持
-- [x] 云端同步功能
+## 🔧 Troubleshooting
 
-### 长期愿景
-- [ ] 更复杂的学习算法
-- [ ] 多模态交互增强
-- [ ] 社交网络集成
-- [ ] 插件系统
-- [ ] 社区功能
-- [ ] 多语言支持
+### Common Issues
 
-## 🤝 贡献指南
+1. **Failed to Start**
 
-欢迎提交Issue和Pull Request！
+   * Make sure Python 3.11+ is installed
+   * Ensure all dependencies are installed
 
-### 开发环境设置
-1. Fork项目
-2. 创建特性分支
-3. 提交代码
-4. 创建Pull Request
+2. **Abnormal AI Responses**
 
-## 📚 详细文档
+   * Check network connection
+   * Verify API key configuration
 
-- [新功能使用指南](新功能使用指南.md) - 详细的新功能配置和使用说明
-- [用户指南](用户指南.md) - 基础功能使用指南
-- [项目设计文档](PROJECT_DESIGN.md) - 技术架构和设计思路
+3. **Lagging Interface**
 
-## 📜 许可证
+   * Restart the program
+   * Check system resource usage
 
-本项目使用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+### Logs
 
-## 🎉 致谢
+Program logs are saved in `logs/ai_life.log` with detailed error information.
 
-感谢所有为这个项目贡献代码和想法的开发者！
+## 🔮 Roadmap
+
+### Short-Term Goals
+
+* [x] Improve perception module
+* [x] Add voice interaction
+* [x] Implement web search
+* [x] Add richer emotional expression
+* [x] 3D virtual avatar
+* [x] Mobile support
+* [x] Cloud sync functionality
+
+### Long-Term Vision
+
+* [ ] More complex learning algorithms
+* [ ] Enhanced multimodal interaction
+* [ ] Social network integration
+* [ ] Plugin system
+* [ ] Community features
+* [ ] Multi-language support
+
+## 🤝 Contribution Guide
+
+Contributions are welcome via Issues and Pull Requests!
+
+### Dev Setup
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your code
+4. Submit a Pull Request
+
+## 📚 Documentation
+
+* [Feature Usage Guide](新功能使用指南.md) – Details on new features and how to use them
+* [User Manual](用户指南.md) – Basic usage instructions
+* [Project Design Document](PROJECT_DESIGN.md) – Technical architecture and design overview
+
+## 📜 License
+
+This project is licensed under the MIT License – See [LICENSE](LICENSE) for details.
+
+## 🎉 Acknowledgements
+
+Thanks to all developers and contributors who helped build this project!
 
 ---
 
-**注意**: 这是一个实验性项目，旨在探索AI生命体的可能性。请合理使用，注意隐私保护。
+**Note**: This is an experimental project exploring the potential of AI lifeforms. Please use responsibly and respect privacy.
 
-## 🔄 更新日志
+## 🔄 Changelog
 
-### v2.0.0 (当前版本)
-- ✅ 新增增强视觉能力（物体识别、场景理解、人脸识别）
-- ✅ 新增语音合成功能（多种TTS引擎支持）
-- ✅ 新增3D虚拟形象（可视化AI角色）
-- ✅ 新增移动端支持（Android/iOS应用）
-- ✅ 新增云端同步功能（多设备数据同步）
-- ✅ 优化用户界面（多标签页设计）
-- ✅ 改进错误处理和安全性
-- ✅ 完善文档和配置系统
+### v2.0.0 (Current Version)
+
+* ✅ Added enhanced vision (object, scene, and face recognition)
+* ✅ Added voice synthesis (multi-engine TTS)
+* ✅ Added 3D virtual avatar
+* ✅ Added mobile platform support (Android/iOS)
+* ✅ Added cloud sync (multi-device)
+* ✅ Improved UI with multi-tab design
+* ✅ Enhanced error handling and security
+* ✅ Refined documentation and configuration system
+
+---
+
